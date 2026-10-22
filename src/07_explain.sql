@@ -1,0 +1,2 @@
+EXPLAIN QUERY PLAN
+SELECT * FROM emprestimo WHERE id_livro = 1;
