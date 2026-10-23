@@ -4,34 +4,34 @@
 **Conceitos praticados:** modelagem relacional, chaves primária/estrangeira, JOINs, GROUP BY, filtros.
 
 ## 1. Planejamento
-- [ ] Escolher o SGBD (MySQL, PostgreSQL, SQLite...)
-- [ ] Listar as entidades e seus atributos
-- [ ] Definir os relacionamentos (1:N, N:N) e desenhar o DER
+- [X] Escolher o SGBD (MySQL, PostgreSQL, SQLite...)
+- [X] Listar as entidades e seus atributos
+- [X] Definir os relacionamentos (1:N, N:N) e desenhar o DER
 
 ## 2. Estrutura
-- [ ] Criar as tabelas com chaves primárias e estrangeiras
-- [ ] Aplicar restrições (NOT NULL, UNIQUE, CHECK, DEFAULT)
-- [ ] Tratar a relação N:N entre livros e autores
+- [X] Criar as tabelas com chaves primárias e estrangeiras
+- [X] Aplicar restrições (NOT NULL, UNIQUE, CHECK, DEFAULT)
+- [X] Tratar a relação N:N entre livros e autores
 
 ## 3. Dados
-- [ ] Inserir dados fictícios (mín. 10 livros, 5 autores, 8 leitores, 20 empréstimos)
-- [ ] Incluir casos de borda: empréstimo atrasado, livro nunca emprestado, leitor sem empréstimos
+- [X] Inserir dados fictícios (mín. 10 livros, 5 autores, 8 leitores, 20 empréstimos)
+- [X] Incluir casos de borda: empréstimo atrasado, livro nunca emprestado, leitor sem empréstimos
 
 ## 4. Consultas (escreva sem olhar a resposta)
-- [ ] Listar todos os livros com seus autores
-- [ ] Livros atualmente emprestados e quem está com eles
-- [ ] Empréstimos atrasados
-- [ ] Top 5 livros mais emprestados
-- [ ] Leitores que nunca pegaram um livro emprestado
-- [ ] Quantidade de livros por categoria
-- [ ] Média de dias de duração dos empréstimos
+- [X] Listar todos os livros com seus autores
+- [X] Livros atualmente emprestados e quem está com eles
+- [X] Empréstimos atrasados
+- [X] Top 5 livros mais emprestados
+- [X] Leitores que nunca pegaram um livro emprestado
+- [X] Quantidade de livros por categoria
+- [X] Média de dias de duração dos empréstimos
 
 ## 5. Extras
-- [ ] Criar uma VIEW para empréstimos em aberto
-- [ ] Criar um índice e comparar com `EXPLAIN`
+- [X] Criar uma VIEW para empréstimos em aberto
+- [X] Criar um índice e comparar com `EXPLAIN`
 
 ## 6. GitHub
-- [ ] Organizar em `01_schema.sql`, `02_dados.sql`, `03_consultas.sql`
-- [ ] Adicionar o diagrama DER
-- [ ] Escrever o README (objetivo, SGBD, como executar)
-- [ ] Subir o repositório
+- [X] Organizar em `01_schema.sql`, `02_dados.sql`, `03_consultas.sql`
+- [X] Adicionar o diagrama DER
+- [X] Escrever o README (objetivo, SGBD, como executar)
+- [X] Subir o repositório
